@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    build: .
+    image: yk2kus/ruby-flask
     ports:
       - "5000:5000"
     volumes:
